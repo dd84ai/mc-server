@@ -13,10 +13,11 @@ services:
       ONLINE_MODE: 0
       SERVER_NAME: "darkwind's technomagic server!"
       MOTD: "Welcome to darkwind's technomagic server!"
-      ALLOW_NETHER: 1
+      ALLOW_NETHER: "true"
       TYPE: "FORGE"
       OPS: "adminium"
       DIFFICULTY: "hard"
+      VIEW_DISTANCE: 4
     volumes:
       # attach a directory relative to the directory containing this compose file
       - ./minecraft-data:/data
