@@ -24,4 +24,4 @@ services:
       - ./mods:/data/mods
       - ./config:/data/config
       - ./ForgeEssentials:/data/ForgeEssentials
-    restart: unless-stopped
+    restart: always
